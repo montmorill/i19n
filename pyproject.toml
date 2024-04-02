@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "i19n"
+version = "0.1.0"
+description = "A simple and humanized localization library."
+authors = ["montmorill <montmorillonite@qq.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/montmorill/i19n"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Localization"
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/montmorill/i19n/issues"
+"Funding" = "https://montmorill.github.io/zh/sponsor"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyyaml = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
